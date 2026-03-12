@@ -1,3 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AjmanTV.ae@SD",Ajman TV (1080p)
-https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MBC1.ae@HD",MBC 1 HD
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1 tvg-id="MBCMASER.ae@HD",MBC Masr HD
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+#EXTINF:-1 tvg-id="MBCMASR2.ae@HD", MBC MASR2 HD
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
+#EXTINF:-1 tvg-id="MBCDrama.ae@HD",MBC Drama HD
+https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
+#EXTINF:-1 tvg-id="MBC4.ae@HD",MBC4 HD
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-id="MBCBollywood.ae@HD",MBC Bollywood HD
+https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
+#EXTINF:-1 tvg-id="Iqraa.ae@HD",Iqraa HD
+https://shd-amg-fast.edgenextcdn.net/tx025/playlist.m3u8
+
