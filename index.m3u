@@ -1,17 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MBC1.ae@HD",MBC 1 HD
+
+# --- ENTERTAINMENT ---
+#EXTINF:-1 tvg-id="MBC1.ae" group-title="Entertainment", MBC 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
-#EXTINF:-1 tvg-id="MBCMASER.ae@HD",MBC Masr HD
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
-#EXTINF:-1 tvg-id="MBCMASR2.ae@HD", MBC MASR2 HD
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
-#EXTINF:-1 tvg-id="MBCDrama.ae@HD",MBC Drama HD
-https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
-#EXTINF:-1 tvg-id="MBC4.ae@HD",MBC4 HD
+
+#EXTINF:-1 tvg-id="MBC4.ae" group-title="Entertainment", MBC 4 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
-#EXTINF:-1 tvg-id="MBCBollywood.ae@HD",MBC Bollywood HD
+
+# --- DRAMA ---
+#EXTINF:-1 tvg-id="MBCMasr.eg" group-title="Drama", MBC Masr HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+
+#EXTINF:-1 tvg-id="MBCMasr2.eg" group-title="Drama", MBC Masr 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
+
+#EXTINF:-1 tvg-id="MBCDrama.ae" group-title="Drama", MBC Drama HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
+https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
+
+#EXTINF:-1 tvg-id="MBCBollywood.ae" group-title="Drama", MBC Bollywood HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://shahid.mbc.net/
 https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-id="Iqraa.ae@HD",Iqraa HD
+
+# --- RELIGIOUS ---
+#EXTINF:-1 tvg-id="Iqraa.sa" group-title="Religious", Iqraa HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://shd-amg-fast.edgenextcdn.net/tx025/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFAPLUS.ae@HD",FIFA+
+
+# --- SPORTS ---
+#EXTINF:-1 tvg-id="FIFAPlus.int" group-title="Sports", FIFA+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://shls-live-enc.edgenextcdn.net/out/v1/b0e399f5d80a4f5a84167830f4baea38/index_9.m3u8
