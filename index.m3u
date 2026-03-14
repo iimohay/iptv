@@ -46,3 +46,34 @@ https://shd-amg-fast.edgenextcdn.net/tx025/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.int" group-title="Sports", FIFA+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://shls-live-enc.edgenextcdn.net/out/v1/b0e399f5d80a4f5a84167830f4baea38/index_9.m3u8
+
+#EXTM3U
+
+# --- NEWS ---
+#EXTINF:-1 tvg-id="AlJazeera.qa" group-title="News", Al Jazeera Arabic 4K
+#EXTVLCOPT:http-referrer=https://www.aljazeera.net/
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="News", Al Jazeera English HD
+#EXTVLCOPT:http-referrer=https://www.aljazeera.com/
+
+
+#EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" group-title="News", Al Jazeera Mubasher HD
+#EXTVLCOPT:http-referrer=https://mubasher.aljazeera.net/
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+
+# --- DOCUMENTARY & NATURE ---
+#EXTINF:-1 tvg-id="AlJazeeraDoc.qa" group-title="Documentary", Al Jazeera Documentary HD
+#EXTVLCOPT:http-referrer=https://doc.aljazeera.net/
+https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
+
+#EXTINF:-1 tvg-id="NatGeo.us" group-title="Documentary", National Geographic
+
+#EXTINF:-1 tvg-id="NatGeoWild.us" group-title="Documentary", National Geographic WILD
+
+
+#EXTINF:-1 tvg-id="ADTV.ae" group-title="UAE", Abu Dhabi TV (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://admn-fast-mpd-tk.starzplayarabia.com/v1/dash/2175a7946e79ae4a0346d2f7e7a99e65769b1cae/ADMN-LIVE-DASH-TK/out/v1/admn_tv/abudhabi_tv/abudhabi_tv_dash/index.mpd
+
